@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../media/P4.jpg') center no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: skyblue;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.783);
+    width: 200px;
+}
+
+.s {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    cursor: pointer;
+}
